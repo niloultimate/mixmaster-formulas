@@ -1,0 +1,147 @@
+body {
+    background-color: #6c8f8b;
+}
+
+table {
+    border: 2px solid black;
+}
+
+table th {
+    border: 2px solid #58685e;
+    border-collapse: collapse;
+    background-image: linear-gradient(180deg, #6D8182, #506868);
+}
+
+table td {
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+    background-color: #C8C0A9!important;
+}
+
+.form-name {
+    text-align: center;
+    width: 100%;
+    border: 1px solid black!important;
+    border-radius: 5px!important;
+    background-image: linear-gradient(180deg, #546869, #8e9f97)!important;
+    color: white!important;
+    margin-bottom: 5px;
+}
+
+.form-input-group {
+    text-align: center;
+    border: 1px solid black!important;
+    background-color: #C8C0A9!important;
+    color: black!important;
+}
+
+.input-group-prepend .input-group-text {
+    border: 1px solid black!important;
+    background-image: linear-gradient(180deg, #546869, #8e9f97);
+    color: white!important;
+}
+
+.select2-container .select2-search--inline .select2-search__field {
+    height: 26px!important;
+}
+
+.btn {
+    color: white!important;
+    background-image: linear-gradient(180deg, #80A4BE, #284354);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white!important;
+}
+
+.navbar-item {
+    font-weight: bold;
+    color: white!important;
+}
+
+.navbar {
+    background-image: linear-gradient(180deg, #6D8182, #506868);
+}
+
+.navbar-nav .nav-item {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.navbar-nav .nav-item .select2 {
+    width: 250px!important;
+}
+
+#container {
+    position: relative;
+}
+
+#img1 {
+    height: 100px;
+    width: 100px;
+    margin-left: -16px;
+}
+
+#img2 {
+    position: absolute;
+    left: 16px;
+    top: 18px;
+    border-radius: 50%;
+    height: 67px;
+    width: 67px;
+}
+
+#preview-border {
+    position: relative;
+    height: 126px;
+    width: 100px;
+    border: 1px solid #889aa1;
+    background-color: #C8C0A9;
+}
+
+#preview-background {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    height: 120px;
+    width: 94px;
+    background-image: linear-gradient(180deg, #94a6af, #182128);
+    border: 1px solid black;
+}
+
+#preview-img {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 120px;
+    width: 94px;
+    max-width: 90px;
+    max-height: 110px;
+    text-align: center;
+}
+
+.preview-img-aling {
+    display: block;
+    max-width: 90px;
+    max-height: 110px;
+    object-fit: fill
+}
+
+#preview-img-neo {
+    position: absolute;
+    bottom: 0px;
+    max-width: 94px;
+    max-height: 120px;
+    padding: 5px;
+}
+
+.blink {
+    animation: blinker 0.1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        filter: hue-rotate(180deg);
+    }
+}
