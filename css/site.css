@@ -35,6 +35,12 @@ table td {
     color: black!important;
 }
 
+.input-group-append .input-group-text {
+    border: 1px solid black!important;
+    background-image: linear-gradient(180deg, #546869, #8e9f97);
+    color: white!important;
+}
+
 .input-group-prepend .input-group-text {
     border: 1px solid black!important;
     background-image: linear-gradient(180deg, #546869, #8e9f97);
